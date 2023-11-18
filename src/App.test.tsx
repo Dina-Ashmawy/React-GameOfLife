@@ -1,9 +1,9 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the GameOfLife component with initialRows and initialCols props', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // Check if GameOfLife component is rendered
+  const gameOfLifeElement = screen.getByTestId('game-of-life');
+  expect(gameOfLifeElement).toBeInTheDocument();
 });
