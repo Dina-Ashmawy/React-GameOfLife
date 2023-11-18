@@ -2,7 +2,7 @@
 A simple implementation of Conway's Game of Life using React.
 
 ## Overview
-This React component represents the Game of Life, a cellular automaton devised by mathematician John Conway. It consists of a grid of cells, and each cell can be alive or dead based on a set of rules. The game evolves over time, creating interesting patterns.
+This React project represents the Game of Life, a cellular automaton devised by mathematician John Conway. It consists of a grid of cells, and each cell can be alive or dead based on a set of rules. The game evolves over time, creating interesting patterns.
 ![Game](https://github.com/Dina-Ashmawy/React-GameOfLife/blob/master/src/assets/images/GameUI.png)
 
 
